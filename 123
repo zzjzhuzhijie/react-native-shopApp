@@ -1,9 +1,0 @@
-          <View>
-            <Text>{index}</Text>
-            <Text>id: {item.id}</Text>
-            <Text style={{fontSize:40}}>{item.name}</Text>
-            <Image source={{uri:item.img}} style={{width:Dimensions.get('window').width,height:200}}/>
-            <Text numberOfLines={2}>{item.text}</Text>
-            <Text>{item.time}</Text>
-            <Text>{item.stars.number}</Text>
-          </View>
